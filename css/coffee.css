@@ -1,0 +1,49 @@
+body {
+    background-color: #efb54a;
+    margin: 0px;
+    padding:0px;
+}
+
+h1 {
+    color:#704e10;
+    text-shadow: 3px 3px 0px #483208;
+}
+
+.cup{
+    height: 140px;
+    width: 180px;
+    border: 10px solid #efb54a;
+    /* position: absolute;
+    top: 40%;
+    left: 40%; */
+    border-radius: 0px 0px 70px 70px;
+    background: url('../img/coffee.png');
+    box-shadow: 0px 0px 0px 10px white;
+    background-repeat: repeat-x;
+    background-position: 0px 140px;
+    animation: fill 4s ease infinite;
+}
+
+@keyframes fill {
+    0%{
+        background-position: 0px 140px;
+    }
+    50%{
+        background-position: -250px -40px;
+    }
+    100%{
+        background-position: 0px 140px;
+    }
+}
+
+.handle{
+    height: 70px;
+    width: 40px;
+    background-color: transparent;
+    border: 10px solid white;
+    position: relative;
+    left: 190px;
+    top:2px;
+    border-radius: 0px 25px 80px 0px;
+}
+
